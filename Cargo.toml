@@ -1,0 +1,16 @@
+[package]
+name = "imgui-wgpu-simple-api"
+version = "0.1.0"
+edition = "2021"
+description = "A simple api for imgui-rs."
+license = "MIT OR Apache-2.0"
+publish = false
+
+
+[dependencies]
+imgui = "0.8.2"
+imgui-wgpu = { git = "https://github.com/Yatekii/imgui-wgpu-rs" }
+imgui-winit-support = { version = "0.8.2", default-features = false, features = ["winit-26"] }
+pollster = "0.2.4"
+winit = "0.26.0"
+wgpu = "0.12.0"
